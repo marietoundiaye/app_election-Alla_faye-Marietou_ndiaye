@@ -1,0 +1,134 @@
+body
+{
+    width: 100%;
+}
+
+*
+{
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}#header
+{
+     border: 1px solid black;
+     border-radius: 20px;
+     background: linear-gradient(blue,black,blue,rgb(29, 27, 27));
+     padding: 40px;
+
+}
+#header h1
+{
+     text-align: center;
+     color: white;
+}  
+#header h3
+{
+     color: white;
+}  
+#main
+{
+     border: 1px solid white;
+     width: 57%;
+     margin: 40px;
+     float: right;
+     background-color: gainsboro;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+     
+}
+#main h4
+{
+    border: 1px solid black;
+   font-size: 20px;
+   text-align: center;
+   color: white;
+   background-color: blue;
+   padding: 10px;
+   margin: 0px;
+
+   
+
+}
+
+#nav
+{
+    border: 1px solid black;
+    
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+#nav a
+{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 6px 15px;
+
+}
+#nav a:hover,
+#nav ul li a.active
+{
+    background: #fff;
+    color: #2b1055;
+}
+
+#nave
+{
+   float: left;
+   border: 1px solid black;
+   width: 30%;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   margin: 40px;
+   background-color: gainsboro;
+
+
+}
+#nave a
+{
+   text-decoration: none;
+   margin: 10px;
+   font-size: 20px;
+   color: black;
+}
+#nave a:hover,
+#nave a.active
+{
+    background: #fff;
+    color: #2b1055;
+}
+
+#nave h4
+{
+   border: 1px solid black;
+   padding: 10px;
+   font-size: 20px;
+   text-align: center;
+   color: white;
+   margin: 0px;
+   background-color: blue;
+}
+input
+{
+     width: 90%;
+     padding: 10px;
+     border-radius: 10px;
+     margin: 15px;
+}
+
+#main button
+{
+      padding: 5px;
+      color: white;
+      border-radius: 7px;
+      background-color: blue;
+      text-align: center;
+      cursor: pointer;
+      
+}
+
+
+
